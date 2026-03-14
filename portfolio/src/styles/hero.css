@@ -1,0 +1,36 @@
+.hero{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.hero h1{
+  font-size:60px;
+  animation:fadeUp 1s ease;
+}
+
+.hero span{
+  color:#6366f1;
+}
+
+.hero p{
+  color:#94a3b8;
+  margin-top:10px;
+}
+
+.hero button{
+  margin-top:20px;
+  padding:12px 30px;
+  background:#6366f1;
+  border:none;
+  color:white;
+  border-radius:8px;
+}
+
+@keyframes fadeUp{
+  from{opacity:0; transform:translateY(40px);}
+  to{opacity:1; transform:translateY(0);}
+}
